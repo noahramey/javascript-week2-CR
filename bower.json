@@ -1,0 +1,17 @@
+{
+  "name": "angular2-skeleton-app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Noah Ramey <noahramey1997@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
