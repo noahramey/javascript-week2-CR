@@ -7,7 +7,7 @@ import { Meal } from './meal.model';
   template: `
     <div class="col-sm-6 jumbotron text-center">
       <h3>Edit {{ meal.name }}</h3>
-      
+
       <input [(ngModel)]="meal.name"><br>
       <input [(ngModel)]="meal.description"><br>
       <input [(ngModel)]="meal.calories"><br>
