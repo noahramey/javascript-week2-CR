@@ -6,7 +6,7 @@ import { Meal } from './meal.model';
   selector: 'my-app',
   directives: [MealListComponent],
   template: `
-    <div class="container">
+    <div>
       <h1>Meal Tracker</h1>
       <meal-list [mealList]="meals">
       </meal-list>

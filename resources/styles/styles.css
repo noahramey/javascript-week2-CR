@@ -1,7 +1,18 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
 h1 {
-  color: blue;
+  text-align: center;
 }
 
 .selected {
   color: green;
+}
+
+.jumbotron {
+  border-radius: 1%;
+  margin-top: 5px;
+  border: 1px solid black;
 }
