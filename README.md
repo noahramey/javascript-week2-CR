@@ -1,14 +1,18 @@
-# _Angular2 App Template_
+# _Meal Tracker App (Angular2)_
 
-##### Template for web applications made with Angular.js
+##### Web Application that lets a user input a meal with a name, description, and calorie count to be shown on a list of all meals they've had. Includes the ability to edit a meal the user previously created. Used to show what I have learned this week while using Angular2.
 
+## Technologies Used
+
+Application: Node, Bower, Angular2, NPM, Gulp<br>
+Framework: Bootstrap
 
 Installation
 ------------
 
 First clone the repository.  
 ```
-$ git clone https://github.com/noahramey/angular2-template.git
+$ git clone https://github.com/noahramey/javascript-week2-CR.git
 ```
 
 Remove the git remote url from the local repository.  
