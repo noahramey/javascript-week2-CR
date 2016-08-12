@@ -8,7 +8,8 @@ import { Meal } from './meal.model';
   template: `
     <div class="container">
       <h1>Meal Tracker</h1>
-      <meal-list [mealList]="meals">
+      <meal-list [mealList]="meals"
+      (onMealSelect)="mealWasSelected($event)">
       </meal-list>
     </div>
   `
@@ -22,5 +23,8 @@ export class AppComponent {
       new Meal("test-meal2", "test-description2", 400, 1),
       new Meal("test-meal3", "test-description3", 300, 2)
     ]
+  }
+  mealWasSelected(clickedMeal: Meal): void {
+    
   }
 }
